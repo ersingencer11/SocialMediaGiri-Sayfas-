@@ -1,0 +1,38 @@
+.register-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-inner{
+    position: relative;
+    height: 95%;
+    padding: 10% 32px;
+    width: 50%;
+    max-width: 640px;
+    background-color:whitesmoke;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-btn{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px ;
+    
+}
